@@ -24,4 +24,5 @@ ucl.nation
 
 Two for universities, and one for world known buildings.
 I also plot those locations at the map
-![Capture](https://user-images.githubusercontent.com/60058957/110760582-d45e1c80-8289-11eb-82bc-baa6b8737e05.PNG)
+![Capture_1](https://user-images.githubusercontent.com/60058957/110811691-da6fef80-82c1-11eb-8535-72b0a3a6ec18.PNG)
+
