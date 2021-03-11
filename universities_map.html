@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7c93ec72efcf4470a7ca2e95d3debd95 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7c93ec72efcf4470a7ca2e95d3debd95" ></div>
+        
+</body>
+<script>    
+    
+            var map_7c93ec72efcf4470a7ca2e95d3debd95 = L.map(
+                "map_7c93ec72efcf4470a7ca2e95d3debd95",
+                {
+                    center: [36.91403405, 60.043453177169376],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_863c9505683b4127921673f98fcdf909 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7c93ec72efcf4470a7ca2e95d3debd95);
+        
+    
+            var marker_5507f92363e743c194ee6323a99bc90b = L.marker(
+                [22.99986015, 120.21988307136446],
+                {}
+            ).addTo(map_7c93ec72efcf4470a7ca2e95d3debd95);
+        
+    
+            var icon_80e1c8a7ea3f423aac4914306fd92585 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5507f92363e743c194ee6323a99bc90b.setIcon(icon_80e1c8a7ea3f423aac4914306fd92585);
+        
+    
+        var popup_5c22533bfffb4d62a6f31ec173c4ebda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_368029cadf154b85acd427e588283e73 = $(`<div id="html_368029cadf154b85acd427e588283e73" style="width: 100.0%; height: 100.0%;">NCKU</div>`)[0];
+            popup_5c22533bfffb4d62a6f31ec173c4ebda.setContent(html_368029cadf154b85acd427e588283e73);
+        
+
+        marker_5507f92363e743c194ee6323a99bc90b.bindPopup(popup_5c22533bfffb4d62a6f31ec173c4ebda)
+        ;
+
+        
+    
+    
+            var marker_1192f6f148a74ca9a0bb19e3068166bd = L.marker(
+                [40.002290450000004, 116.3209629696906],
+                {}
+            ).addTo(map_7c93ec72efcf4470a7ca2e95d3debd95);
+        
+    
+            var icon_f6f71c24232e43e9b8499c624065bf83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1192f6f148a74ca9a0bb19e3068166bd.setIcon(icon_f6f71c24232e43e9b8499c624065bf83);
+        
+    
+        var popup_242bf75f2e6649d8a5736314c9f1d8a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_509eb4fe060f41b98bc17c4c517b4dc9 = $(`<div id="html_509eb4fe060f41b98bc17c4c517b4dc9" style="width: 100.0%; height: 100.0%;">Tsinghua University</div>`)[0];
+            popup_242bf75f2e6649d8a5736314c9f1d8a9.setContent(html_509eb4fe060f41b98bc17c4c517b4dc9);
+        
+
+        marker_1192f6f148a74ca9a0bb19e3068166bd.bindPopup(popup_242bf75f2e6649d8a5736314c9f1d8a9)
+        ;
+
+        
+    
+    
+            var marker_7fb4d77303054e1cb7723f763a45d7ea = L.marker(
+                [22.304486699999998, 114.17969345666262],
+                {}
+            ).addTo(map_7c93ec72efcf4470a7ca2e95d3debd95);
+        
+    
+            var icon_d52ba8133a38446a8f38af8d815fafcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7fb4d77303054e1cb7723f763a45d7ea.setIcon(icon_d52ba8133a38446a8f38af8d815fafcf);
+        
+    
+        var popup_1fe43576e0484b43a11195630eb07b09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c09d77290194d23b252d6fcf8eb1e28 = $(`<div id="html_3c09d77290194d23b252d6fcf8eb1e28" style="width: 100.0%; height: 100.0%;">PolyU</div>`)[0];
+            popup_1fe43576e0484b43a11195630eb07b09.setContent(html_3c09d77290194d23b252d6fcf8eb1e28);
+        
+
+        marker_7fb4d77303054e1cb7723f763a45d7ea.bindPopup(popup_1fe43576e0484b43a11195630eb07b09)
+        ;
+
+        
+    
+    
+            var marker_b41590f3ad98437095e0dbb5a6e009fe = L.marker(
+                [51.5235814, -0.1329767170257194],
+                {}
+            ).addTo(map_7c93ec72efcf4470a7ca2e95d3debd95);
+        
+    
+            var icon_69fbaa2965a445c78edcc7d36d448cce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b41590f3ad98437095e0dbb5a6e009fe.setIcon(icon_69fbaa2965a445c78edcc7d36d448cce);
+        
+    
+        var popup_485bc8c9fb874c49adec7c4d763bb555 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74e47ebfd1b94fe3b7fa1d4e12294981 = $(`<div id="html_74e47ebfd1b94fe3b7fa1d4e12294981" style="width: 100.0%; height: 100.0%;">UCL</div>`)[0];
+            popup_485bc8c9fb874c49adec7c4d763bb555.setContent(html_74e47ebfd1b94fe3b7fa1d4e12294981);
+        
+
+        marker_b41590f3ad98437095e0dbb5a6e009fe.bindPopup(popup_485bc8c9fb874c49adec7c4d763bb555)
+        ;
+
+        
+    
+</script>

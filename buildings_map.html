@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e5c475a6c3d04effa2100f7a066aee29 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e5c475a6c3d04effa2100f7a066aee29" ></div>
+        
+</body>
+<script>    
+    
+            var map_e5c475a6c3d04effa2100f7a066aee29 = L.map(
+                "map_e5c475a6c3d04effa2100f7a066aee29",
+                {
+                    center: [6.110777249999998, 25.073517821401865],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eb1fda81287a416397ddd7a71ce65a6b = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var marker_c72dc98a7b7846ea89a349c6aa64c4f8 = L.marker(
+                [40.748428399999995, -73.98565461987332],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_03cb4719ba324c2fac877386274f5d25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_c72dc98a7b7846ea89a349c6aa64c4f8.setIcon(icon_03cb4719ba324c2fac877386274f5d25);
+        
+    
+        var popup_9a1a3a56082140d8be61a727005e3087 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_451eebc7ee634947b34497f60dfc0e50 = $(`<div id="html_451eebc7ee634947b34497f60dfc0e50" style="width: 100.0%; height: 100.0%;">Empire State Building</div>`)[0];
+            popup_9a1a3a56082140d8be61a727005e3087.setContent(html_451eebc7ee634947b34497f60dfc0e50);
+        
+
+        marker_c72dc98a7b7846ea89a349c6aa64c4f8.bindPopup(popup_9a1a3a56082140d8be61a727005e3087)
+        ;
+
+        
+    
+    
+            var marker_fb6530e18c00469bba5ad5c78e36c9ab = L.marker(
+                [48.804425249999994, 2.120285270992599],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_68701b1175ca45a7996156a13fec4edd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_fb6530e18c00469bba5ad5c78e36c9ab.setIcon(icon_68701b1175ca45a7996156a13fec4edd);
+        
+    
+        var popup_4c22b0aff4d045ed9ebe775f6f5ee3ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47953f5a8ffb4308b0948dcdc446d179 = $(`<div id="html_47953f5a8ffb4308b0948dcdc446d179" style="width: 100.0%; height: 100.0%;">Palace of Versailles</div>`)[0];
+            popup_4c22b0aff4d045ed9ebe775f6f5ee3ec.setContent(html_47953f5a8ffb4308b0948dcdc446d179);
+        
+
+        marker_fb6530e18c00469bba5ad5c78e36c9ab.bindPopup(popup_4c22b0aff4d045ed9ebe775f6f5ee3ec)
+        ;
+
+        
+    
+    
+            var marker_477176b46e1442349039817fc661cb36 = L.marker(
+                [35.65858645, 139.74544005796224],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_c3b4ec41d5fc4f2b86cff1b05623b5e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_477176b46e1442349039817fc661cb36.setIcon(icon_c3b4ec41d5fc4f2b86cff1b05623b5e4);
+        
+    
+        var popup_dc7c580fe0944bf2b81a966a72381300 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da8b9da414ba41b68042167f2e6d869a = $(`<div id="html_da8b9da414ba41b68042167f2e6d869a" style="width: 100.0%; height: 100.0%;">Tokyo Tower</div>`)[0];
+            popup_dc7c580fe0944bf2b81a966a72381300.setContent(html_da8b9da414ba41b68042167f2e6d869a);
+        
+
+        marker_477176b46e1442349039817fc661cb36.bindPopup(popup_dc7c580fe0944bf2b81a966a72381300)
+        ;
+
+        
+    
+    
+            var marker_c59108a5e13345aab0ac5277aa3a6dc5 = L.marker(
+                [23.13689775, -82.3597751479908],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_b8956cc69c4f47cba4d25683627c3ca7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_c59108a5e13345aab0ac5277aa3a6dc5.setIcon(icon_b8956cc69c4f47cba4d25683627c3ca7);
+        
+    
+        var popup_d457f7c8556140ec9b97aa847d652210 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0f0a7fb51654e32b9bc25270b85243f = $(`<div id="html_b0f0a7fb51654e32b9bc25270b85243f" style="width: 100.0%; height: 100.0%;">Gran Teatro de La Habana</div>`)[0];
+            popup_d457f7c8556140ec9b97aa847d652210.setContent(html_b0f0a7fb51654e32b9bc25270b85243f);
+        
+
+        marker_c59108a5e13345aab0ac5277aa3a6dc5.bindPopup(popup_d457f7c8556140ec9b97aa847d652210)
+        ;
+
+        
+    
+    
+            var marker_02e4bfe37ca5418eb2210b07d5d817de = L.marker(
+                [34.0258457, -118.3114643],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_59d8b81748fc4e51baec7019396accf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_02e4bfe37ca5418eb2210b07d5d817de.setIcon(icon_59d8b81748fc4e51baec7019396accf3);
+        
+    
+        var popup_bd7f60cdd2a94b0293bed9c917f2e492 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4024b5199324d6fb045f3ba4190342a = $(`<div id="html_b4024b5199324d6fb045f3ba4190342a" style="width: 100.0%; height: 100.0%;">Lotus Temple</div>`)[0];
+            popup_bd7f60cdd2a94b0293bed9c917f2e492.setContent(html_b4024b5199324d6fb045f3ba4190342a);
+        
+
+        marker_02e4bfe37ca5418eb2210b07d5d817de.bindPopup(popup_bd7f60cdd2a94b0293bed9c917f2e492)
+        ;
+
+        
+    
+    
+            var marker_7482538f3b494f278d3264778344276f = L.marker(
+                [37.8302731, -122.4798443],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_deb6368a6f3c45fe8ecc5da4af78833c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_7482538f3b494f278d3264778344276f.setIcon(icon_deb6368a6f3c45fe8ecc5da4af78833c);
+        
+    
+        var popup_44b142932ac143d0ad13bb51c0f6e2b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ce513367b38477e827eed30bd6cce9d = $(`<div id="html_2ce513367b38477e827eed30bd6cce9d" style="width: 100.0%; height: 100.0%;">Golden Gate Bridge</div>`)[0];
+            popup_44b142932ac143d0ad13bb51c0f6e2b9.setContent(html_2ce513367b38477e827eed30bd6cce9d);
+        
+
+        marker_7482538f3b494f278d3264778344276f.bindPopup(popup_44b142932ac143d0ad13bb51c0f6e2b9)
+        ;
+
+        
+    
+    
+            var marker_d29a83c0e7fa426780dd6862b8a2bc4b = L.marker(
+                [50.0754264, 14.414171910983487],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_d2777a97559a4ae2a77d3aad443db6f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_d29a83c0e7fa426780dd6862b8a2bc4b.setIcon(icon_d2777a97559a4ae2a77d3aad443db6f9);
+        
+    
+        var popup_2b4f0988c35e4851a627e865264a0d66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f292a9487bbb404ab954f981f149fd86 = $(`<div id="html_f292a9487bbb404ab954f981f149fd86" style="width: 100.0%; height: 100.0%;">Dancing House</div>`)[0];
+            popup_2b4f0988c35e4851a627e865264a0d66.setContent(html_f292a9487bbb404ab954f981f149fd86);
+        
+
+        marker_d29a83c0e7fa426780dd6862b8a2bc4b.bindPopup(popup_2b4f0988c35e4851a627e865264a0d66)
+        ;
+
+        
+    
+    
+            var marker_fd7b9bc109db47fbb154381e407ed0c1 = L.marker(
+                [29.97915995, 31.134215650388754],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_d228f0bd908f458ebe51b9c8403a44de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_fd7b9bc109db47fbb154381e407ed0c1.setIcon(icon_d228f0bd908f458ebe51b9c8403a44de);
+        
+    
+        var popup_c78d2171643843dd916550d655c20ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc059ab50e5440e485098d1b5ccf80bf = $(`<div id="html_dc059ab50e5440e485098d1b5ccf80bf" style="width: 100.0%; height: 100.0%;">Great Pyramid of Giza</div>`)[0];
+            popup_c78d2171643843dd916550d655c20ca5.setContent(html_dc059ab50e5440e485098d1b5ccf80bf);
+        
+
+        marker_fd7b9bc109db47fbb154381e407ed0c1.bindPopup(popup_c78d2171643843dd916550d655c20ca5)
+        ;
+
+        
+    
+    
+            var marker_2cb97df2de5f42b4b3b1b397ea05b60a = L.marker(
+                [37.97169955, 23.726349600616587],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_b27477c7c90c4626958dbee0f02b24f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_2cb97df2de5f42b4b3b1b397ea05b60a.setIcon(icon_b27477c7c90c4626958dbee0f02b24f4);
+        
+    
+        var popup_b783e672f9dd4d70845cb486c0b79b78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0883f503e2704fdcb9f2842dd2cb9831 = $(`<div id="html_0883f503e2704fdcb9f2842dd2cb9831" style="width: 100.0%; height: 100.0%;">Acropolis of Athens</div>`)[0];
+            popup_b783e672f9dd4d70845cb486c0b79b78.setContent(html_0883f503e2704fdcb9f2842dd2cb9831);
+        
+
+        marker_2cb97df2de5f42b4b3b1b397ea05b60a.bindPopup(popup_b783e672f9dd4d70845cb486c0b79b78)
+        ;
+
+        
+    
+    
+            var marker_bfc8c6bdaa8b44abb95d067be732c136 = L.marker(
+                [51.051957, 13.741619751785713],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_b3381a44c1544f13be6a07be0f710ef0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_bfc8c6bdaa8b44abb95d067be732c136.setIcon(icon_b3381a44c1544f13be6a07be0f710ef0);
+        
+    
+        var popup_d14e8f6f841a4fd38d2d104cd9986c34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86ad61e5c46145209429357fab03e6a8 = $(`<div id="html_86ad61e5c46145209429357fab03e6a8" style="width: 100.0%; height: 100.0%;">Dresden Frauenkirche</div>`)[0];
+            popup_d14e8f6f841a4fd38d2d104cd9986c34.setContent(html_86ad61e5c46145209429357fab03e6a8);
+        
+
+        marker_bfc8c6bdaa8b44abb95d067be732c136.bindPopup(popup_d14e8f6f841a4fd38d2d104cd9986c34)
+        ;
+
+        
+    
+    
+            var marker_24ef89862fdb45a2ab76c9873354c7c5 = L.marker(
+                [41.89861595, 12.476833414483862],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_47783f4d8f5645d089d9c794e8a7b69b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_24ef89862fdb45a2ab76c9873354c7c5.setIcon(icon_47783f4d8f5645d089d9c794e8a7b69b);
+        
+    
+        var popup_f98de3e984b0451c9e519d87f1612bdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c01eb82e9dbb4d99b825ecd4f5162457 = $(`<div id="html_c01eb82e9dbb4d99b825ecd4f5162457" style="width: 100.0%; height: 100.0%;">Pantheon</div>`)[0];
+            popup_f98de3e984b0451c9e519d87f1612bdf.setContent(html_c01eb82e9dbb4d99b825ecd4f5162457);
+        
+
+        marker_24ef89862fdb45a2ab76c9873354c7c5.bindPopup(popup_f98de3e984b0451c9e519d87f1612bdf)
+        ;
+
+        
+    
+    
+            var marker_4c1d88e9827b40b2aa683e69eacc6cca = L.marker(
+                [55.7524736, 37.6231623872298],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_90e858225eea4ea79ce605bc3f7793e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_4c1d88e9827b40b2aa683e69eacc6cca.setIcon(icon_90e858225eea4ea79ce605bc3f7793e6);
+        
+    
+        var popup_7385330a11c441c8afd3482a24002b46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fc0079a2fd04afeb9c7943de06bfc8c = $(`<div id="html_4fc0079a2fd04afeb9c7943de06bfc8c" style="width: 100.0%; height: 100.0%;">St. Basil's Cathedral</div>`)[0];
+            popup_7385330a11c441c8afd3482a24002b46.setContent(html_4fc0079a2fd04afeb9c7943de06bfc8c);
+        
+
+        marker_4c1d88e9827b40b2aa683e69eacc6cca.bindPopup(popup_7385330a11c441c8afd3482a24002b46)
+        ;
+
+        
+    
+    
+            var marker_8b25df19f2df4553aff7c03850f13fec = L.marker(
+                [39.91727565, 116.39076940577283],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_ba69b7ed6b8b4cccb6c91003344b9f8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_8b25df19f2df4553aff7c03850f13fec.setIcon(icon_ba69b7ed6b8b4cccb6c91003344b9f8a);
+        
+    
+        var popup_1b263ae3e0a94ed6b2bcb3ded1e31c54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0e13088d7e44567b118a8dbb29d5921 = $(`<div id="html_a0e13088d7e44567b118a8dbb29d5921" style="width: 100.0%; height: 100.0%;">Forbidden City</div>`)[0];
+            popup_1b263ae3e0a94ed6b2bcb3ded1e31c54.setContent(html_a0e13088d7e44567b118a8dbb29d5921);
+        
+
+        marker_8b25df19f2df4553aff7c03850f13fec.bindPopup(popup_1b263ae3e0a94ed6b2bcb3ded1e31c54)
+        ;
+
+        
+    
+    
+            var marker_210891fe901148938d93ae0217d6eedd = L.marker(
+                [41.4034789, 2.174410333009705],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_ca0e29bb2d094d2fa18c8628aea791a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_210891fe901148938d93ae0217d6eedd.setIcon(icon_ca0e29bb2d094d2fa18c8628aea791a8);
+        
+    
+        var popup_04bb99c1da5544ab879c936daec30abb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f9ab636317b45a7b3f4b172146f07d2 = $(`<div id="html_4f9ab636317b45a7b3f4b172146f07d2" style="width: 100.0%; height: 100.0%;">BasIlica de la Sagrada FamIlia</div>`)[0];
+            popup_04bb99c1da5544ab879c936daec30abb.setContent(html_4f9ab636317b45a7b3f4b172146f07d2);
+        
+
+        marker_210891fe901148938d93ae0217d6eedd.bindPopup(popup_04bb99c1da5544ab879c936daec30abb)
+        ;
+
+        
+    
+    
+            var marker_fabac62e951f4d35802e29fc6c81dfe7 = L.marker(
+                [51.5043421, -0.0864458928542395],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_4614c235e13340819f837a633d309dc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_fabac62e951f4d35802e29fc6c81dfe7.setIcon(icon_4614c235e13340819f837a633d309dc3);
+        
+    
+        var popup_1108d3aaa9e54f3cbb5ef41244e18786 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4ce84e08eff4b60a29b3ceb35174092 = $(`<div id="html_d4ce84e08eff4b60a29b3ceb35174092" style="width: 100.0%; height: 100.0%;">The Shard</div>`)[0];
+            popup_1108d3aaa9e54f3cbb5ef41244e18786.setContent(html_d4ce84e08eff4b60a29b3ceb35174092);
+        
+
+        marker_fabac62e951f4d35802e29fc6c81dfe7.bindPopup(popup_1108d3aaa9e54f3cbb5ef41244e18786)
+        ;
+
+        
+    
+    
+            var marker_0b4f419a978542259e28c3b0678d5ed6 = L.marker(
+                [-33.85719805, 151.21512338473752],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_0d9c5624e1e84f7ea0830f24f97b7de2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_0b4f419a978542259e28c3b0678d5ed6.setIcon(icon_0d9c5624e1e84f7ea0830f24f97b7de2);
+        
+    
+        var popup_f0fbc4333c4f4e0bb721d73c0acc6573 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b39ef8174d294fc1bcd4a1acfb8483cf = $(`<div id="html_b39ef8174d294fc1bcd4a1acfb8483cf" style="width: 100.0%; height: 100.0%;">Sydney Opera House</div>`)[0];
+            popup_f0fbc4333c4f4e0bb721d73c0acc6573.setContent(html_b39ef8174d294fc1bcd4a1acfb8483cf);
+        
+
+        marker_0b4f419a978542259e28c3b0678d5ed6.bindPopup(popup_f0fbc4333c4f4e0bb721d73c0acc6573)
+        ;
+
+        
+    
+    
+            var marker_0be00860d1f14b68883bac179d893e57 = L.marker(
+                [25.197030599999998, 55.274221681616936],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_f5b7c9b667b44378b6ec613a304ab656 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_0be00860d1f14b68883bac179d893e57.setIcon(icon_f5b7c9b667b44378b6ec613a304ab656);
+        
+    
+        var popup_bf2b75663de3442197d835bea810526b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c551cd671bc474395e9e2520194360b = $(`<div id="html_8c551cd671bc474395e9e2520194360b" style="width: 100.0%; height: 100.0%;">Burj Khalifa</div>`)[0];
+            popup_bf2b75663de3442197d835bea810526b.setContent(html_8c551cd671bc474395e9e2520194360b);
+        
+
+        marker_0be00860d1f14b68883bac179d893e57.bindPopup(popup_bf2b75663de3442197d835bea810526b)
+        ;
+
+        
+    
+    
+            var marker_02a3ff7e6742474dae742bfd5f1b72e5 = L.marker(
+                [25.03368625, 121.56481033101315],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_92508153bb124c08b3f31d811655f68b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_02a3ff7e6742474dae742bfd5f1b72e5.setIcon(icon_92508153bb124c08b3f31d811655f68b);
+        
+    
+        var popup_6d61a0dd6c924a669d799765cb83b349 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44d7e7ba462e4e72bb3b8e9eec5d476c = $(`<div id="html_44d7e7ba462e4e72bb3b8e9eec5d476c" style="width: 100.0%; height: 100.0%;">Taipei 101</div>`)[0];
+            popup_6d61a0dd6c924a669d799765cb83b349.setContent(html_44d7e7ba462e4e72bb3b8e9eec5d476c);
+        
+
+        marker_02a3ff7e6742474dae742bfd5f1b72e5.bindPopup(popup_6d61a0dd6c924a669d799765cb83b349)
+        ;
+
+        
+    
+    
+            var marker_56f2f40244b447bdaf990096bf1bf7e6 = L.marker(
+                [-23.56150875, -46.65596048644724],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_74a3f0a8d7a146aea60db460b21a88b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_56f2f40244b447bdaf990096bf1bf7e6.setIcon(icon_74a3f0a8d7a146aea60db460b21a88b5);
+        
+    
+        var popup_bb383c2b5c13489e822a8489eeddde7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13273464e8bf4066b1c8342ec29cb6d0 = $(`<div id="html_13273464e8bf4066b1c8342ec29cb6d0" style="width: 100.0%; height: 100.0%;">Museu de Arte de Sao Paulo Assis Chateaubriand</div>`)[0];
+            popup_bb383c2b5c13489e822a8489eeddde7a.setContent(html_13273464e8bf4066b1c8342ec29cb6d0);
+        
+
+        marker_56f2f40244b447bdaf990096bf1bf7e6.bindPopup(popup_bb383c2b5c13489e822a8489eeddde7a)
+        ;
+
+        
+    
+    
+            var marker_0135f069922c4db7ad78a914a578b7d2 = L.marker(
+                [41.9029338, 12.45440425],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_eba94807bc514118bac1933f0effe238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_0135f069922c4db7ad78a914a578b7d2.setIcon(icon_eba94807bc514118bac1933f0effe238);
+        
+    
+        var popup_ca238a2d68d84a3881168e1ada4549be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a34414e4e637475abae62471f66d21a3 = $(`<div id="html_a34414e4e637475abae62471f66d21a3" style="width: 100.0%; height: 100.0%;">Cappella Sistina</div>`)[0];
+            popup_ca238a2d68d84a3881168e1ada4549be.setContent(html_a34414e4e637475abae62471f66d21a3);
+        
+
+        marker_0135f069922c4db7ad78a914a578b7d2.bindPopup(popup_ca238a2d68d84a3881168e1ada4549be)
+        ;
+
+        
+    
+    
+            var marker_dcbda41b95684ba0a997376b33d691db = L.marker(
+                [-34.601085499999996, -58.38318689897575],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_d6bb68a6a5654f378b5982976835d5d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_dcbda41b95684ba0a997376b33d691db.setIcon(icon_d6bb68a6a5654f378b5982976835d5d9);
+        
+    
+        var popup_f4ae2f4e01804cf4b7ff5b08298e7d4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf726797445a41f9bb7905613058fe86 = $(`<div id="html_bf726797445a41f9bb7905613058fe86" style="width: 100.0%; height: 100.0%;">Teatro Colon</div>`)[0];
+            popup_f4ae2f4e01804cf4b7ff5b08298e7d4c.setContent(html_bf726797445a41f9bb7905613058fe86);
+        
+
+        marker_dcbda41b95684ba0a997376b33d691db.bindPopup(popup_f4ae2f4e01804cf4b7ff5b08298e7d4c)
+        ;
+
+        
+    
+    
+            var marker_0c144a5064e54e62b13057873a53bdd8 = L.marker(
+                [-4.2881, 28.93613075],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_7cb78a2b825549f88c13b5e3956ad380 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_0c144a5064e54e62b13057873a53bdd8.setIcon(icon_7cb78a2b825549f88c13b5e3956ad380);
+        
+    
+        var popup_a75b5ffc9c744a6da34d6ca5e1c7cc0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdbc0aa7d3704e12b2a28cf096452a70 = $(`<div id="html_cdbc0aa7d3704e12b2a28cf096452a70" style="width: 100.0%; height: 100.0%;">RTNC Congo Building</div>`)[0];
+            popup_a75b5ffc9c744a6da34d6ca5e1c7cc0d.setContent(html_cdbc0aa7d3704e12b2a28cf096452a70);
+        
+
+        marker_0c144a5064e54e62b13057873a53bdd8.bindPopup(popup_a75b5ffc9c744a6da34d6ca5e1c7cc0d)
+        ;
+
+        
+    
+    
+            var marker_32953780887e47f88bfa4500be10fe7b = L.marker(
+                [30.32205925, 35.451437299999995],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_4d4a3a4e30d3481d81836894996d16b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_32953780887e47f88bfa4500be10fe7b.setIcon(icon_4d4a3a4e30d3481d81836894996d16b4);
+        
+    
+        var popup_8325ae50140a48f290ce3de78203c9e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43ad3a07b4da4522b5a3926f3989cbef = $(`<div id="html_43ad3a07b4da4522b5a3926f3989cbef" style="width: 100.0%; height: 100.0%;">Al-Khazneh</div>`)[0];
+            popup_8325ae50140a48f290ce3de78203c9e9.setContent(html_43ad3a07b4da4522b5a3926f3989cbef);
+        
+
+        marker_32953780887e47f88bfa4500be10fe7b.bindPopup(popup_8325ae50140a48f290ce3de78203c9e9)
+        ;
+
+        
+    
+    
+            var marker_2fd6785e18f441b18668e28e99ee678c = L.marker(
+                [33.140125, -117.2909791],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_16af7abf9acf4c94a6b24cb2a30e60f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_2fd6785e18f441b18668e28e99ee678c.setIcon(icon_16af7abf9acf4c94a6b24cb2a30e60f6);
+        
+    
+        var popup_73c7aba8e45b418f8b0a8fcc587abdab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_349dd146f3b1404ead854aafe2c5c728 = $(`<div id="html_349dd146f3b1404ead854aafe2c5c728" style="width: 100.0%; height: 100.0%;">Halley Research Station</div>`)[0];
+            popup_73c7aba8e45b418f8b0a8fcc587abdab.setContent(html_349dd146f3b1404ead854aafe2c5c728);
+        
+
+        marker_2fd6785e18f441b18668e28e99ee678c.bindPopup(popup_73c7aba8e45b418f8b0a8fcc587abdab)
+        ;
+
+        
+    
+    
+            var marker_c997abc0aa81434fbcb1ff4279067243 = L.marker(
+                [27.1750123, 78.04209683661315],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_aebe31757e5d4e8d950649bab854d674 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_c997abc0aa81434fbcb1ff4279067243.setIcon(icon_aebe31757e5d4e8d950649bab854d674);
+        
+    
+        var popup_07fbf2eea41e4814bf2cae704dfec2ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2d6378326514e268e0834bb76c420c1 = $(`<div id="html_f2d6378326514e268e0834bb76c420c1" style="width: 100.0%; height: 100.0%;">Taj Mahal</div>`)[0];
+            popup_07fbf2eea41e4814bf2cae704dfec2ac.setContent(html_f2d6378326514e268e0834bb76c420c1);
+        
+
+        marker_c997abc0aa81434fbcb1ff4279067243.bindPopup(popup_07fbf2eea41e4814bf2cae704dfec2ac)
+        ;
+
+        
+    
+    
+            var marker_94a06a4bd7ca43ea915484117c0e714b = L.marker(
+                [-19.92240865, -43.936871294917395],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_5806c4cc5c2d417ab97a36e463cfa7e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_94a06a4bd7ca43ea915484117c0e714b.setIcon(icon_5806c4cc5c2d417ab97a36e463cfa7e9);
+        
+    
+        var popup_6103ab2bf96346e48da9ab3bba9b663c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41b869261bcd42d9bfe5e7892aa17036 = $(`<div id="html_41b869261bcd42d9bfe5e7892aa17036" style="width: 100.0%; height: 100.0%;">Pena Palace</div>`)[0];
+            popup_6103ab2bf96346e48da9ab3bba9b663c.setContent(html_41b869261bcd42d9bfe5e7892aa17036);
+        
+
+        marker_94a06a4bd7ca43ea915484117c0e714b.bindPopup(popup_6103ab2bf96346e48da9ab3bba9b663c)
+        ;
+
+        
+    
+    
+            var marker_e94be173c3e54a44b9ff89e4d7d5e7bb = L.marker(
+                [40.10293195, -74.08706014619483],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_bb1f722ad924424bba93c3cbb7411c27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_e94be173c3e54a44b9ff89e4d7d5e7bb.setIcon(icon_bb1f722ad924424bba93c3cbb7411c27);
+        
+    
+        var popup_4b85d38726eb44d680f5321b8ffc00e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f91ef38b5b1642ce97948814f388e843 = $(`<div id="html_f91ef38b5b1642ce97948814f388e843" style="width: 100.0%; height: 100.0%;">Chateau Lake Louise</div>`)[0];
+            popup_4b85d38726eb44d680f5321b8ffc00e6.setContent(html_f91ef38b5b1642ce97948814f388e843);
+        
+
+        marker_e94be173c3e54a44b9ff89e4d7d5e7bb.bindPopup(popup_4b85d38726eb44d680f5321b8ffc00e6)
+        ;
+
+        
+    
+    
+            var marker_f9501ec6df9c4afda39862e61ece7904 = L.marker(
+                [37.56706855, 127.00975013182718],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_c3ee4d3facdf4d4ea284561e645f8ac0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_f9501ec6df9c4afda39862e61ece7904.setIcon(icon_c3ee4d3facdf4d4ea284561e645f8ac0);
+        
+    
+        var popup_b874e468345744f49cee7e97399ed316 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e06d77bc65f242ac872e55916aba7c5e = $(`<div id="html_e06d77bc65f242ac872e55916aba7c5e" style="width: 100.0%; height: 100.0%;">Dongdaemun Design Plaza</div>`)[0];
+            popup_b874e468345744f49cee7e97399ed316.setContent(html_e06d77bc65f242ac872e55916aba7c5e);
+        
+
+        marker_f9501ec6df9c4afda39862e61ece7904.bindPopup(popup_b874e468345744f49cee7e97399ed316)
+        ;
+
+        
+    
+    
+            var marker_bd2a7c86ef6a48e0a5bf7812a172a707 = L.marker(
+                [22.2791838, 114.16160738855751],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_c0685cf8169e4a4bab402ade57342c1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_bd2a7c86ef6a48e0a5bf7812a172a707.setIcon(icon_c0685cf8169e4a4bab402ade57342c1b);
+        
+    
+        var popup_4320f55d2a164926a847b19f22e8a69f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d39e7cd60224e19aa2b17a754703fe7 = $(`<div id="html_4d39e7cd60224e19aa2b17a754703fe7" style="width: 100.0%; height: 100.0%;">Bank of China Tower</div>`)[0];
+            popup_4320f55d2a164926a847b19f22e8a69f.setContent(html_4d39e7cd60224e19aa2b17a754703fe7);
+        
+
+        marker_bd2a7c86ef6a48e0a5bf7812a172a707.bindPopup(popup_4320f55d2a164926a847b19f22e8a69f)
+        ;
+
+        
+    
+    
+            var marker_5cfb81fb7ea244eea0518e6cc1d8576e = L.marker(
+                [31.24194635, 121.49526041661909],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_159032fdf0ec420d8be816b40379b481 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_5cfb81fb7ea244eea0518e6cc1d8576e.setIcon(icon_159032fdf0ec420d8be816b40379b481);
+        
+    
+        var popup_42a539bf0c0948b4a87a0b261c760fa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cc1c81aa70e437b8583b636ce342662 = $(`<div id="html_5cc1c81aa70e437b8583b636ce342662" style="width: 100.0%; height: 100.0%;">Oriental Pearl Tower</div>`)[0];
+            popup_42a539bf0c0948b4a87a0b261c760fa9.setContent(html_5cc1c81aa70e437b8583b636ce342662);
+        
+
+        marker_5cfb81fb7ea244eea0518e6cc1d8576e.bindPopup(popup_42a539bf0c0948b4a87a0b261c760fa9)
+        ;
+
+        
+    
+    
+            var marker_7faf2fe5b1c749f4b2b535c6990e8489 = L.marker(
+                [3.1579678500000004, 101.71120482350457],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_be47996d75ca43709aeef88307a1350c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_7faf2fe5b1c749f4b2b535c6990e8489.setIcon(icon_be47996d75ca43709aeef88307a1350c);
+        
+    
+        var popup_c982994b5a474114af17f5b82019a81e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0a7f683a62c4e8b8985a1111a22b28f = $(`<div id="html_c0a7f683a62c4e8b8985a1111a22b28f" style="width: 100.0%; height: 100.0%;">Menara Berkembar Petronas</div>`)[0];
+            popup_c982994b5a474114af17f5b82019a81e.setContent(html_c0a7f683a62c4e8b8985a1111a22b28f);
+        
+
+        marker_7faf2fe5b1c749f4b2b535c6990e8489.bindPopup(popup_c982994b5a474114af17f5b82019a81e)
+        ;
+
+        
+    
+    
+            var marker_286795bb50364e7e8fbdd810b3de7250 = L.marker(
+                [-43.530919100000006, 172.62687994280373],
+                {}
+            ).addTo(map_e5c475a6c3d04effa2100f7a066aee29);
+        
+    
+            var icon_4f7709b1760a4869b393a9a58765d33b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_286795bb50364e7e8fbdd810b3de7250.setIcon(icon_4f7709b1760a4869b393a9a58765d33b);
+        
+    
+        var popup_e6933b51113e4ddc913918f21926278b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06632b77c26c47099afade2f0654d740 = $(`<div id="html_06632b77c26c47099afade2f0654d740" style="width: 100.0%; height: 100.0%;">Canterbury Museum</div>`)[0];
+            popup_e6933b51113e4ddc913918f21926278b.setContent(html_06632b77c26c47099afade2f0654d740);
+        
+
+        marker_286795bb50364e7e8fbdd810b3de7250.bindPopup(popup_e6933b51113e4ddc913918f21926278b)
+        ;
+
+        
+    
+</script>

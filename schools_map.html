@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_36fc6950ca164d5c82f0cb06acfd41b6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_36fc6950ca164d5c82f0cb06acfd41b6" ></div>
+        
+</body>
+<script>    
+    
+            var map_36fc6950ca164d5c82f0cb06acfd41b6 = L.map(
+                "map_36fc6950ca164d5c82f0cb06acfd41b6",
+                {
+                    center: [7.20138635, 32.77253197207156],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7936ea6522b64dbb830abe6e8fcc8eb1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_36fc6950ca164d5c82f0cb06acfd41b6);
+        
+    
+            var marker_78e616abc93c43e8aab39e89f729c6c7 = L.marker(
+                [51.5235814, -0.1329767170257194],
+                {}
+            ).addTo(map_36fc6950ca164d5c82f0cb06acfd41b6);
+        
+    
+            var icon_3c7f8e10667c41dd884e1686e46fbc39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_78e616abc93c43e8aab39e89f729c6c7.setIcon(icon_3c7f8e10667c41dd884e1686e46fbc39);
+        
+    
+        var popup_cec2479f4cc04901a9760eaaf0bcd668 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2269e00c30354c61adc444be0817d415 = $(`<div id="html_2269e00c30354c61adc444be0817d415" style="width: 100.0%; height: 100.0%;">UCL</div>`)[0];
+            popup_cec2479f4cc04901a9760eaaf0bcd668.setContent(html_2269e00c30354c61adc444be0817d415);
+        
+
+        marker_78e616abc93c43e8aab39e89f729c6c7.bindPopup(popup_cec2479f4cc04901a9760eaaf0bcd668)
+        ;
+
+        
+    
+    
+            var marker_0e95f818286e4bc2b55c72cfa456e80b = L.marker(
+                [52.1998523, 0.11973865741074383],
+                {}
+            ).addTo(map_36fc6950ca164d5c82f0cb06acfd41b6);
+        
+    
+            var icon_c5874980e6a2435ca4e9f15a474fb976 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_0e95f818286e4bc2b55c72cfa456e80b.setIcon(icon_c5874980e6a2435ca4e9f15a474fb976);
+        
+    
+        var popup_15f9c1822e124e40be7bd3aacf05c1d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37b247d1937c40c7ae6859254da1a3d0 = $(`<div id="html_37b247d1937c40c7ae6859254da1a3d0" style="width: 100.0%; height: 100.0%;">University of Cambridge</div>`)[0];
+            popup_15f9c1822e124e40be7bd3aacf05c1d2.setContent(html_37b247d1937c40c7ae6859254da1a3d0);
+        
+
+        marker_0e95f818286e4bc2b55c72cfa456e80b.bindPopup(popup_15f9c1822e124e40be7bd3aacf05c1d2)
+        ;
+
+        
+    
+    
+            var marker_74e4b6b092d24412b0f5c631e53f03ce = L.marker(
+                [42.36790855, -71.12678237443698],
+                {}
+            ).addTo(map_36fc6950ca164d5c82f0cb06acfd41b6);
+        
+    
+            var icon_e40cdd9d47fb49aabe5d74a5b98d98b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_74e4b6b092d24412b0f5c631e53f03ce.setIcon(icon_e40cdd9d47fb49aabe5d74a5b98d98b1);
+        
+    
+        var popup_8ca24afa6a314137aed217d09f247cb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c725e2e80b604883ba781f312090ffff = $(`<div id="html_c725e2e80b604883ba781f312090ffff" style="width: 100.0%; height: 100.0%;">Harvard University</div>`)[0];
+            popup_8ca24afa6a314137aed217d09f247cb0.setContent(html_c725e2e80b604883ba781f312090ffff);
+        
+
+        marker_74e4b6b092d24412b0f5c631e53f03ce.bindPopup(popup_8ca24afa6a314137aed217d09f247cb0)
+        ;
+
+        
+    
+    
+            var marker_12f4f3c974b24fc79e53f3f1963bc903 = L.marker(
+                [37.45811495, 126.95216069831967],
+                {}
+            ).addTo(map_36fc6950ca164d5c82f0cb06acfd41b6);
+        
+    
+            var icon_64ce26c1572e45a3b4b21de0f3611271 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_12f4f3c974b24fc79e53f3f1963bc903.setIcon(icon_64ce26c1572e45a3b4b21de0f3611271);
+        
+    
+        var popup_31a3158690294607b5b3ece8d87afb39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f0e4c3334554ffda589429d70d46b4b = $(`<div id="html_7f0e4c3334554ffda589429d70d46b4b" style="width: 100.0%; height: 100.0%;">Seoul University</div>`)[0];
+            popup_31a3158690294607b5b3ece8d87afb39.setContent(html_7f0e4c3334554ffda589429d70d46b4b);
+        
+
+        marker_12f4f3c974b24fc79e53f3f1963bc903.bindPopup(popup_31a3158690294607b5b3ece8d87afb39)
+        ;
+
+        
+    
+    
+            var marker_5ab2f00846cc4864b21dd6f7fa8042cd = L.marker(
+                [-37.7970796, 144.96130134414312],
+                {}
+            ).addTo(map_36fc6950ca164d5c82f0cb06acfd41b6);
+        
+    
+            var icon_0f34e45694fd45f380c3394ef9022f24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_5ab2f00846cc4864b21dd6f7fa8042cd.setIcon(icon_0f34e45694fd45f380c3394ef9022f24);
+        
+    
+        var popup_ca2e0d01258f4a09a45d091b93036246 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb61c273c2904aadada8970e3a9909d8 = $(`<div id="html_eb61c273c2904aadada8970e3a9909d8" style="width: 100.0%; height: 100.0%;">University of Melbourne</div>`)[0];
+            popup_ca2e0d01258f4a09a45d091b93036246.setContent(html_eb61c273c2904aadada8970e3a9909d8);
+        
+
+        marker_5ab2f00846cc4864b21dd6f7fa8042cd.bindPopup(popup_ca2e0d01258f4a09a45d091b93036246)
+        ;
+
+        
+    
+    
+            var marker_2d19865902c747f8906764180c44ac2b = L.marker(
+                [43.6561192, -79.38467],
+                {}
+            ).addTo(map_36fc6950ca164d5c82f0cb06acfd41b6);
+        
+    
+            var icon_3f003701a6f64abd947ed9c51d660021 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_2d19865902c747f8906764180c44ac2b.setIcon(icon_3f003701a6f64abd947ed9c51d660021);
+        
+    
+        var popup_011f8e60865943b4849fe7ddfdc4bda0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54c85cd93ea0406ea41a739f9468427a = $(`<div id="html_54c85cd93ea0406ea41a739f9468427a" style="width: 100.0%; height: 100.0%;">Toronto University</div>`)[0];
+            popup_011f8e60865943b4849fe7ddfdc4bda0.setContent(html_54c85cd93ea0406ea41a739f9468427a);
+        
+
+        marker_2d19865902c747f8906764180c44ac2b.bindPopup(popup_011f8e60865943b4849fe7ddfdc4bda0)
+        ;
+
+        
+    
+    
+            var marker_c20992cc311e4c06b6e5f693e230e30e = L.marker(
+                [43.6643611, -79.4162374],
+                {}
+            ).addTo(map_36fc6950ca164d5c82f0cb06acfd41b6);
+        
+    
+            var icon_a391cff8bb1f40048d3ebb1fd6f16308 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_c20992cc311e4c06b6e5f693e230e30e.setIcon(icon_a391cff8bb1f40048d3ebb1fd6f16308);
+        
+    
+        var popup_b544e198f3d64cbfbaed0ed6a5e26341 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac7e0177665f48499a43196b1ec0fa97 = $(`<div id="html_ac7e0177665f48499a43196b1ec0fa97" style="width: 100.0%; height: 100.0%;">Tokyo University</div>`)[0];
+            popup_b544e198f3d64cbfbaed0ed6a5e26341.setContent(html_ac7e0177665f48499a43196b1ec0fa97);
+        
+
+        marker_c20992cc311e4c06b6e5f693e230e30e.bindPopup(popup_b544e198f3d64cbfbaed0ed6a5e26341)
+        ;
+
+        
+    
+    
+            var marker_03e8502d0eef4b85b89303929de33b47 = L.marker(
+                [-33.95675585, 18.467577702002977],
+                {}
+            ).addTo(map_36fc6950ca164d5c82f0cb06acfd41b6);
+        
+    
+            var icon_a87f7adf29264536ba91a5598d6f1a20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_03e8502d0eef4b85b89303929de33b47.setIcon(icon_a87f7adf29264536ba91a5598d6f1a20);
+        
+    
+        var popup_c515ab8f10d64d33ab8d5d2660482a34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca2d21930eed4d30ae53625ea09ae916 = $(`<div id="html_ca2d21930eed4d30ae53625ea09ae916" style="width: 100.0%; height: 100.0%;">University of Cape Town</div>`)[0];
+            popup_c515ab8f10d64d33ab8d5d2660482a34.setContent(html_ca2d21930eed4d30ae53625ea09ae916);
+        
+
+        marker_03e8502d0eef4b85b89303929de33b47.bindPopup(popup_c515ab8f10d64d33ab8d5d2660482a34)
+        ;
+
+        
+    
+    
+            var marker_080313975b7a4992a9cfab24af0b7c69 = L.marker(
+                [-23.56096405, -46.72770807289966],
+                {}
+            ).addTo(map_36fc6950ca164d5c82f0cb06acfd41b6);
+        
+    
+            var icon_22f4119dd8614bbcb0d716a2a6f06b47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_080313975b7a4992a9cfab24af0b7c69.setIcon(icon_22f4119dd8614bbcb0d716a2a6f06b47);
+        
+    
+        var popup_76c8daf54a1d495aa3159e396d7b48be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49e4c6dca20341b4b075ab6fb9b27d32 = $(`<div id="html_49e4c6dca20341b4b075ab6fb9b27d32" style="width: 100.0%; height: 100.0%;">University of Sao Paulo</div>`)[0];
+            popup_76c8daf54a1d495aa3159e396d7b48be.setContent(html_49e4c6dca20341b4b075ab6fb9b27d32);
+        
+
+        marker_080313975b7a4992a9cfab24af0b7c69.bindPopup(popup_76c8daf54a1d495aa3159e396d7b48be)
+        ;
+
+        
+    
+</script>
