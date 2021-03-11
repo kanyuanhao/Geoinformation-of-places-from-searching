@@ -18,3 +18,7 @@ ucl = Place('UCL')
 ucl.nation
 ```
 >'United Kingdom'
+
+## Three samples
+
+Two for universities, and one for world known buildings.
