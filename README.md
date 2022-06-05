@@ -1,6 +1,7 @@
 # Geoinformation of places from searching
 
 Get the geoinformation of one place just by typing the name of the place.
+Please view the interactive jupyter notebook demontration at https://nbviewer.org/github/kanyuanhao/Geoinformation-of-places-from-searching/blob/main/Geoinformation%20of%20places%20from%20searching.ipynb (p.s. sorry for Tokyo University, for some reasons the **GeoPy** library thought you were in Toronto)
 
 ## Libraries requirements
 
